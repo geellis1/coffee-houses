@@ -1,0 +1,80 @@
+:root {
+    --mainColor: #fa8072;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    text-align: center;
+    margin-top:40px;
+    margin-bottom:40px;
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;
+    color: salmon;
+}
+
+.list {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+}
+
+.list > .shop {
+    width: 30%;
+}
+
+.shop {
+ border: 2px solid salmon;
+ text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.address {
+    color:grey;
+    line-height: 16pt;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+.phoneNumber {
+    color: grey;
+    font-family: 'Abel', sans-serif;
+    font-size: 14pt;
+}
+
+/* .shop.jam {
+    background-image: url(/images/jamcoffee.jpeg)
+} */
+
+a {
+    background:
+       linear-gradient(
+         to bottom, var(--mainColor) 0%,
+         var(--mainColor) 100%
+       );
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 4px 4px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s;
+    color: gray;
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  a:hover {
+    background-size: 4px 50px;
+  }
+
+  h3 {
+      font-family: 'Abril Fatface', cursive;
+      color: salmon;
+      font-size: 25pt;
+
+  }
